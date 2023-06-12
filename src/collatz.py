@@ -25,3 +25,9 @@ def collatz(num):
         print(num)
 
 # collatz(27)
+
+m = y.copy()
+m.sort()
+
+nhn = 100 - (m[-1] % 100) # nhn = nearest hundreds number
+ymax = m[-1] + nhn
